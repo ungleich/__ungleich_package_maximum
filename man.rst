@@ -1,11 +1,8 @@
 cdist-type__ungleich_package_maximum(7)
 =======================================
+Set installonly_limit parameter to 2
+
 ungleich GmbH <cdist--@--ungleich.ch>
-
-
-NAME
-----
-cdist-type__ungleich_package_maximum - Set installonly_limit parameter to 2
 
 
 DESCRIPTION
@@ -32,10 +29,10 @@ MESSAGES
 EXAMPLES
 --------
 
---------------------------------------------------------------------------------
-# Set the parameter
-__ungleich_package_maximum
---------------------------------------------------------------------------------
+.. code-block:: sh
+
+    # Set the parameter
+    __ungleich_package_maximum
 
 
 MORE INFORMATION
@@ -44,7 +41,7 @@ MORE INFORMATION
 
 SEE ALSO
 --------
-- cdist-type(7)
+- `cdist-type(7) <cdist-type.html>`_
 
 
 COPYING
