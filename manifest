@@ -22,7 +22,7 @@
 
 os="$(cat "$__global/explorer/os")"
 
-if [ ${os} == "centos" ]; then
+if [ "${os}" = "centos" ]; then
 
     __package yum-utils
 
